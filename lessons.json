@@ -1,0 +1,540 @@
+{
+  "_meta": {
+    "description": "The 2026 Come, Follow Me — Old Testament weekly lessons. Each lesson lists its date range, scripture title, two parallel image arrays, and symbol ids. The 'images' array draws from the 'manual' collection (Come Follow Me 2026 manual). The 'gospelArtImages' array draws from the 'gospelArt' collection (Church-approved Gospel Art Book paintings). The viewer uses whichever the user has toggled. If gospelArtImages is empty or missing for a week, the viewer falls back to the manual images.",
+    "year": 2026,
+    "curriculum": "Old Testament",
+    "source": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026",
+    "schema": {
+      "id": "sequential week id, used in URLs and bookmarks",
+      "dateStart": "ISO date — first day of the study week (usually Monday)",
+      "dateEnd": "ISO date — last day of the study week (usually Sunday)",
+      "dateLabel": "human label shown in the UI",
+      "scripture": "scripture reference(s) for the week",
+      "images": "array of image ids from images.manual, shown when Manual Art mode is on",
+      "gospelArtImages": "array of image ids from images.gospelArt, shown when Gospel Art Book mode is on. Optional.",
+      "symbols": "array of symbol ids from symbols.json, shown in the symbol strip"
+    }
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "dateStart": "2025-12-29",
+      "dateEnd": "2026-01-04",
+      "dateLabel": "December 29 – January 4",
+      "scripture": "Introduction to the Old Testament",
+      "images": ["intro-jesus-hill", "isaiah-scroll", "jesus-shepherd"],
+      "gospelArtImages": ["christs-image", "isaiah-foretells"],
+      "symbols": ["scripture", "jesus-christ", "prophet"]
+    },
+    {
+      "id": 2,
+      "dateStart": "2026-01-05",
+      "dateEnd": "2026-01-11",
+      "dateLabel": "January 5 – 11",
+      "scripture": "Moses 1; Abraham 3",
+      "images": ["stars-nebula", "moses-burning-bush"],
+      "gospelArtImages": ["the-earth", "moses-burning-bushes-gab"],
+      "symbols": ["creation", "prophet", "jesus-christ"]
+    },
+    {
+      "id": 3,
+      "dateStart": "2026-01-12",
+      "dateEnd": "2026-01-18",
+      "dateLabel": "January 12 – 18",
+      "scripture": "Genesis 1–2; Moses 2–3; Abraham 4–5",
+      "images": ["earth-moon", "stars-nebula"],
+      "gospelArtImages": ["the-earth", "creation-living-creatures"],
+      "symbols": ["creation", "light", "family"]
+    },
+    {
+      "id": 4,
+      "dateStart": "2026-01-19",
+      "dateEnd": "2026-01-25",
+      "dateLabel": "January 19 – 25",
+      "scripture": "Genesis 3–4; Moses 4–5",
+      "images": ["adam-eve"],
+      "gospelArtImages": ["adam-eve-altar"],
+      "symbols": ["repentance", "sacrifice", "atonement"]
+    },
+    {
+      "id": 5,
+      "dateStart": "2026-01-26",
+      "dateEnd": "2026-02-01",
+      "dateLabel": "January 26 – February 1",
+      "scripture": "Genesis 5; Moses 6",
+      "images": ["adam-eve-teaching"],
+      "gospelArtImages": ["adam-eve-teaching-children"],
+      "symbols": ["family", "covenant", "scripture"]
+    },
+    {
+      "id": 6,
+      "dateStart": "2026-02-02",
+      "dateEnd": "2026-02-08",
+      "dateLabel": "February 2 – 8",
+      "scripture": "Moses 7",
+      "images": ["enoch-vision"],
+      "gospelArtImages": ["enoch-city-zion"],
+      "symbols": ["prophet", "jesus-christ", "faith"]
+    },
+    {
+      "id": 7,
+      "dateStart": "2026-02-09",
+      "dateEnd": "2026-02-15",
+      "dateLabel": "February 9 – 15",
+      "scripture": "Genesis 6–11; Moses 8",
+      "images": ["noah-ark"],
+      "gospelArtImages": ["building-ark", "noah-and-animals"],
+      "symbols": ["covenant", "prophet", "faith"]
+    },
+    {
+      "id": 8,
+      "dateStart": "2026-02-16",
+      "dateEnd": "2026-02-22",
+      "dateLabel": "February 16 – 22",
+      "scripture": "Genesis 12–17; Abraham 1–2",
+      "images": ["melchizedek-abram"],
+      "gospelArtImages": ["rebekah-well"],
+      "symbols": ["covenant", "priesthood", "israel"]
+    },
+    {
+      "id": 9,
+      "dateStart": "2026-02-23",
+      "dateEnd": "2026-03-01",
+      "dateLabel": "February 23 – March 1",
+      "scripture": "Genesis 18–23",
+      "images": ["sarah-isaac"],
+      "gospelArtImages": ["abraham-isaac", "angel-saves-abraham"],
+      "symbols": ["faith", "covenant", "sacrifice"]
+    },
+    {
+      "id": 10,
+      "dateStart": "2026-03-02",
+      "dateEnd": "2026-03-08",
+      "dateLabel": "March 2 – 8",
+      "scripture": "Genesis 24–33",
+      "images": ["jacob-esau-birthright"],
+      "gospelArtImages": ["rebekah-well", "jacob-blessing-sons"],
+      "symbols": ["covenant", "family", "israel"]
+    },
+    {
+      "id": 11,
+      "dateStart": "2026-03-09",
+      "dateEnd": "2026-03-15",
+      "dateLabel": "March 9 – 15",
+      "scripture": "Genesis 37–41",
+      "images": ["joseph-coat"],
+      "gospelArtImages": ["joseph-sold-brothers", "joseph-resists-potiphars-wife"],
+      "symbols": ["faith", "family"]
+    },
+    {
+      "id": 12,
+      "dateStart": "2026-03-16",
+      "dateEnd": "2026-03-22",
+      "dateLabel": "March 16 – 22",
+      "scripture": "Genesis 42–50",
+      "images": ["joseph-forgives"],
+      "gospelArtImages": ["jacob-blessing-sons"],
+      "symbols": ["repentance", "family", "atonement"]
+    },
+    {
+      "id": 13,
+      "dateStart": "2026-03-23",
+      "dateEnd": "2026-03-29",
+      "dateLabel": "March 23 – 29",
+      "scripture": "Exodus 1–6",
+      "images": ["moses-burning-bush"],
+      "gospelArtImages": ["moses-bulrushes", "moses-burning-bushes-gab"],
+      "symbols": ["prophet", "light", "exodus"]
+    },
+    {
+      "id": 14,
+      "dateStart": "2026-03-30",
+      "dateEnd": "2026-04-05",
+      "dateLabel": "March 30 – April 5",
+      "scripture": "Easter",
+      "images": ["empty-tomb", "jesus-crown-thorns"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["jesus-christ", "atonement", "resurrection"]
+    },
+    {
+      "id": 15,
+      "dateStart": "2026-04-06",
+      "dateEnd": "2026-04-12",
+      "dateLabel": "April 6 – 12",
+      "scripture": "Exodus 7–13",
+      "images": ["moses-pharaoh"],
+      "gospelArtImages": ["moses-calls-aaron"],
+      "symbols": ["sacrifice", "atonement", "exodus"]
+    },
+    {
+      "id": 16,
+      "dateStart": "2026-04-13",
+      "dateEnd": "2026-04-19",
+      "dateLabel": "April 13 – 19",
+      "scripture": "Exodus 14–18",
+      "images": ["red-sea"],
+      "gospelArtImages": ["moses-parts-red-sea"],
+      "symbols": ["exodus", "faith", "prophet"]
+    },
+    {
+      "id": 17,
+      "dateStart": "2026-04-20",
+      "dateEnd": "2026-04-26",
+      "dateLabel": "April 20 – 26",
+      "scripture": "Exodus 19–20; 24; 31–34",
+      "images": ["moses-ten-commandments"],
+      "gospelArtImages": ["moses-tablets"],
+      "symbols": ["commandments", "covenant", "law"]
+    },
+    {
+      "id": 18,
+      "dateStart": "2026-04-27",
+      "dateEnd": "2026-05-03",
+      "dateLabel": "April 27 – May 3",
+      "scripture": "Exodus 35–40; Leviticus 1; 4; 16; 19",
+      "images": ["rio-temple"],
+      "gospelArtImages": ["moses-calls-aaron"],
+      "symbols": ["temple", "sacrifice", "covenant"]
+    },
+    {
+      "id": 19,
+      "dateStart": "2026-05-04",
+      "dateEnd": "2026-05-10",
+      "dateLabel": "May 4 – 10",
+      "scripture": "Numbers 11–14; 20–24; 27",
+      "images": ["wadi-rum"],
+      "gospelArtImages": ["moses-brass-serpent"],
+      "symbols": ["faith", "prophet", "exodus"]
+    },
+    {
+      "id": 20,
+      "dateStart": "2026-05-11",
+      "dateEnd": "2026-05-17",
+      "dateLabel": "May 11 – 17",
+      "scripture": "Deuteronomy 6–8; 15; 18; 29–30; 34",
+      "images": ["moses-mount-nebo"],
+      "gospelArtImages": ["moses-tablets"],
+      "symbols": ["commandments", "covenant", "prophet"]
+    },
+    {
+      "id": 21,
+      "dateStart": "2026-05-18",
+      "dateEnd": "2026-05-24",
+      "dateLabel": "May 18 – 24",
+      "scripture": "Joshua 1–8; 23–24",
+      "images": ["moses-blessing-joshua"],
+      "gospelArtImages": [],
+      "symbols": ["faith", "priesthood", "prophet"]
+    },
+    {
+      "id": 22,
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-31",
+      "dateLabel": "May 25 – 31",
+      "scripture": "Judges 2–4; 6–8; 13–16",
+      "images": ["deborah"],
+      "gospelArtImages": [],
+      "symbols": ["faith", "repentance", "prophet"]
+    },
+    {
+      "id": 23,
+      "dateStart": "2026-06-01",
+      "dateEnd": "2026-06-07",
+      "dateLabel": "June 1 – 7",
+      "scripture": "Ruth; 1 Samuel 1–7",
+      "images": ["ruth-naomi"],
+      "gospelArtImages": ["ruth-gleaning", "samuel-called"],
+      "symbols": ["covenant", "family", "faith"]
+    },
+    {
+      "id": 24,
+      "dateStart": "2026-06-08",
+      "dateEnd": "2026-06-14",
+      "dateLabel": "June 8 – 14",
+      "scripture": "1 Samuel 8–10; 13; 15–16",
+      "images": ["jesus-staff"],
+      "gospelArtImages": ["samuel-called"],
+      "symbols": ["prophet", "shepherd", "jesus-christ"]
+    },
+    {
+      "id": 25,
+      "dateStart": "2026-06-15",
+      "dateEnd": "2026-06-21",
+      "dateLabel": "June 15 – 21",
+      "scripture": "1 Samuel 17–18; 24–26; 2 Samuel 5–7",
+      "images": ["david-sling"],
+      "gospelArtImages": ["david-goliath"],
+      "symbols": ["faith", "prayer"]
+    },
+    {
+      "id": 26,
+      "dateStart": "2026-06-22",
+      "dateEnd": "2026-06-28",
+      "dateLabel": "June 22 – 28",
+      "scripture": "2 Samuel 11–12; 1 Kings 3; 6–9; 11",
+      "images": ["solomon-temple"],
+      "gospelArtImages": [],
+      "symbols": ["temple", "prayer", "wisdom"]
+    },
+    {
+      "id": 27,
+      "dateStart": "2026-06-29",
+      "dateEnd": "2026-07-05",
+      "dateLabel": "June 29 – July 5",
+      "scripture": "1 Kings 12–13; 17–22",
+      "images": ["elijah-altar"],
+      "gospelArtImages": ["elijah-priests-baal"],
+      "symbols": ["prophet", "priesthood", "faith"]
+    },
+    {
+      "id": 28,
+      "dateStart": "2026-07-06",
+      "dateEnd": "2026-07-12",
+      "dateLabel": "July 6 – 12",
+      "scripture": "2 Kings 2–7",
+      "images": ["naaman-jordan"],
+      "gospelArtImages": ["elijah-priests-baal"],
+      "symbols": ["faith", "prophet"]
+    },
+    {
+      "id": 29,
+      "dateStart": "2026-07-13",
+      "dateEnd": "2026-07-19",
+      "dateLabel": "July 13 – 19",
+      "scripture": "2 Kings 16–25",
+      "images": ["babylon-exile"],
+      "gospelArtImages": [],
+      "symbols": ["repentance", "israel", "prophet"]
+    },
+    {
+      "id": 30,
+      "dateStart": "2026-07-20",
+      "dateEnd": "2026-07-26",
+      "dateLabel": "July 20 – 26",
+      "scripture": "2 Chronicles 14–20; 26; 30",
+      "images": ["jehoshaphat-praying"],
+      "gospelArtImages": [],
+      "symbols": ["prayer", "faith"]
+    },
+    {
+      "id": 31,
+      "dateStart": "2026-07-27",
+      "dateEnd": "2026-08-02",
+      "dateLabel": "July 27 – August 2",
+      "scripture": "Ezra 1; 3–7; Nehemiah 2; 4–6; 8",
+      "images": ["jerusalem-walls"],
+      "gospelArtImages": [],
+      "symbols": ["temple", "covenant", "israel"]
+    },
+    {
+      "id": 32,
+      "dateStart": "2026-08-03",
+      "dateEnd": "2026-08-09",
+      "dateLabel": "August 3 – 9",
+      "scripture": "Esther",
+      "images": ["esther-king"],
+      "gospelArtImages": ["queen-esther"],
+      "symbols": ["faith", "prayer"]
+    },
+    {
+      "id": 33,
+      "dateStart": "2026-08-10",
+      "dateEnd": "2026-08-16",
+      "dateLabel": "August 10 – 16",
+      "scripture": "Job 1–3; 12–14; 19; 21–24; 38–40; 42",
+      "images": ["job"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["faith", "resurrection", "jesus-christ"]
+    },
+    {
+      "id": 34,
+      "dateStart": "2026-08-17",
+      "dateEnd": "2026-08-23",
+      "dateLabel": "August 17 – 23",
+      "scripture": "Psalms 1–2; 8; 19–33; 40; 46",
+      "images": ["jesus-shepherd"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["shepherd", "jesus-christ", "faith"]
+    },
+    {
+      "id": 35,
+      "dateStart": "2026-08-24",
+      "dateEnd": "2026-08-30",
+      "dateLabel": "August 24 – 30",
+      "scripture": "Psalms 49–51; 61–66; 69–72; 77–78; 85–86",
+      "images": ["jesus-lantern"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["light", "repentance", "prayer"]
+    },
+    {
+      "id": 36,
+      "dateStart": "2026-08-31",
+      "dateEnd": "2026-09-06",
+      "dateLabel": "August 31 – September 6",
+      "scripture": "Psalms 102–3; 110; 116–19; 127–28; 135–39; 146–50",
+      "images": ["jesus-helping-woman"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["jesus-christ", "prayer"]
+    },
+    {
+      "id": 37,
+      "dateStart": "2026-09-07",
+      "dateEnd": "2026-09-13",
+      "dateLabel": "September 7 – 13",
+      "scripture": "Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12",
+      "images": ["jesus-children"],
+      "gospelArtImages": [],
+      "symbols": ["wisdom", "family"]
+    },
+    {
+      "id": 38,
+      "dateStart": "2026-09-14",
+      "dateEnd": "2026-09-20",
+      "dateLabel": "September 14 – 20",
+      "scripture": "Isaiah 1–12",
+      "images": ["isaiah-scroll"],
+      "gospelArtImages": ["isaiah-foretells"],
+      "symbols": ["prophet", "messiah", "scripture"]
+    },
+    {
+      "id": 39,
+      "dateStart": "2026-09-21",
+      "dateEnd": "2026-09-27",
+      "dateLabel": "September 21 – 27",
+      "scripture": "Isaiah 13–14; 22; 24–30; 35",
+      "images": ["first-vision"],
+      "gospelArtImages": ["isaiah-foretells"],
+      "symbols": ["prophet", "light", "messiah"]
+    },
+    {
+      "id": 40,
+      "dateStart": "2026-09-28",
+      "dateEnd": "2026-10-04",
+      "dateLabel": "September 28 – October 4",
+      "scripture": "Isaiah 40–49",
+      "images": ["jesus-heals-blind"],
+      "gospelArtImages": ["christs-image", "isaiah-foretells"],
+      "symbols": ["jesus-christ", "faith", "messiah"]
+    },
+    {
+      "id": 41,
+      "dateStart": "2026-10-05",
+      "dateEnd": "2026-10-11",
+      "dateLabel": "October 5 – 11",
+      "scripture": "Isaiah 50–57",
+      "images": ["jesus-crown-thorns"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["atonement", "sacrifice", "messiah"]
+    },
+    {
+      "id": 42,
+      "dateStart": "2026-10-12",
+      "dateEnd": "2026-10-18",
+      "dateLabel": "October 12 – 18",
+      "scripture": "Isaiah 58–66",
+      "images": ["jesus-synagogue"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["covenant", "jesus-christ", "scripture"]
+    },
+    {
+      "id": 43,
+      "dateStart": "2026-10-19",
+      "dateEnd": "2026-10-25",
+      "dateLabel": "October 19 – 25",
+      "scripture": "Jeremiah 1–3; 7; 16–18; 20",
+      "images": ["jeremiah"],
+      "gospelArtImages": [],
+      "symbols": ["prophet", "repentance"]
+    },
+    {
+      "id": 44,
+      "dateStart": "2026-10-26",
+      "dateEnd": "2026-11-01",
+      "dateLabel": "October 26 – November 1",
+      "scripture": "Jeremiah 31–33; 36–38; Lamentations 1; 3",
+      "images": ["jeremiah-resting"],
+      "gospelArtImages": [],
+      "symbols": ["covenant", "scripture", "messiah"]
+    },
+    {
+      "id": 45,
+      "dateStart": "2026-11-02",
+      "dateEnd": "2026-11-08",
+      "dateLabel": "November 2 – 8",
+      "scripture": "Ezekiel 1–3; 33–34; 36–37; 47",
+      "images": ["watchman-tower"],
+      "gospelArtImages": [],
+      "symbols": ["prophet", "shepherd", "resurrection"]
+    },
+    {
+      "id": 46,
+      "dateStart": "2026-11-09",
+      "dateEnd": "2026-11-15",
+      "dateLabel": "November 9 – 15",
+      "scripture": "Daniel 1–7",
+      "images": ["daniel-nebuchadnezzar"],
+      "gospelArtImages": ["daniel-refuses", "daniel-interprets", "daniel-lions-den"],
+      "symbols": ["prophet", "faith", "wisdom"]
+    },
+    {
+      "id": 47,
+      "dateStart": "2026-11-16",
+      "dateEnd": "2026-11-22",
+      "dateLabel": "November 16 – 22",
+      "scripture": "Hosea 1–6; 10–14; Joel",
+      "images": ["newly-married-temple"],
+      "gospelArtImages": [],
+      "symbols": ["covenant", "temple", "repentance"]
+    },
+    {
+      "id": 48,
+      "dateStart": "2026-11-23",
+      "dateEnd": "2026-11-29",
+      "dateLabel": "November 23 – 29",
+      "scripture": "Amos; Obadiah; Jonah",
+      "images": ["jonah-seashore"],
+      "gospelArtImages": ["jonah-whale"],
+      "symbols": ["repentance", "prophet", "atonement"]
+    },
+    {
+      "id": 49,
+      "dateStart": "2026-11-30",
+      "dateEnd": "2026-12-06",
+      "dateLabel": "November 30 – December 6",
+      "scripture": "Micah; Nahum; Habakkuk; Zephaniah",
+      "images": ["starry-sky-man"],
+      "gospelArtImages": [],
+      "symbols": ["faith", "messiah", "prophet"]
+    },
+    {
+      "id": 50,
+      "dateStart": "2026-12-07",
+      "dateEnd": "2026-12-13",
+      "dateLabel": "December 7 – 13",
+      "scripture": "Haggai 1–2; Zechariah 1–4; 7–14",
+      "images": ["laie-hawaii-temple"],
+      "gospelArtImages": [],
+      "symbols": ["temple", "messiah", "covenant"]
+    },
+    {
+      "id": 51,
+      "dateStart": "2026-12-14",
+      "dateEnd": "2026-12-20",
+      "dateLabel": "December 14 – 20",
+      "scripture": "Malachi",
+      "images": ["jesus-statue-stars"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["temple", "family", "messiah"]
+    },
+    {
+      "id": 52,
+      "dateStart": "2026-12-21",
+      "dateEnd": "2026-12-27",
+      "dateLabel": "December 21 – 27",
+      "scripture": "Christmas",
+      "images": ["baby-jesus"],
+      "gospelArtImages": ["christs-image"],
+      "symbols": ["jesus-christ", "messiah", "family"]
+    }
+  ]
+}

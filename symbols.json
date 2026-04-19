@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "description": "Gospel symbols used to illustrate abstract doctrines. Each symbol has a label and an inline SVG. The SVGs use currentColor so they inherit the app's ink color. Replace the 'svg' field or swap in an 'imageUrl' (from the Church's Gospel Language Symbols library) without changing any code.",
+    "source": "Inspired by the Gospel Language Symbols library (https://www.churchofjesuschrist.org/study/manual/gospel-symbols?lang=eng). SVGs authored for this app for reliable offline rendering.",
+    "schema": {
+      "id": "stable slug used in lessons.json",
+      "label": "short human label",
+      "svg": "inline SVG markup, uses currentColor",
+      "imageUrl": "optional override — if present, app displays the image instead of the SVG"
+    }
+  },
+  "symbols": {
+    "jesus-christ": {
+      "label": "Jesus Christ",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='36' fill='none' stroke='currentColor' stroke-width='2.5'/><path d='M50 22 V78 M28 50 H72' stroke='currentColor' stroke-width='3.5' stroke-linecap='round'/></svg>"
+    },
+    "covenant": {
+      "label": "Covenant",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='35' cy='50' r='18' fill='none' stroke='currentColor' stroke-width='3'/><circle cx='65' cy='50' r='18' fill='none' stroke='currentColor' stroke-width='3'/></svg>"
+    },
+    "faith": {
+      "label": "Faith",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M50 18 C35 40 32 58 32 68 C32 78 40 84 50 84 C60 84 68 78 68 68 C68 58 65 40 50 18 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><circle cx='50' cy='68' r='5' fill='currentColor'/></svg>"
+    },
+    "prayer": {
+      "label": "Prayer",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M40 82 L40 48 C40 36 44 28 50 24 C56 28 60 36 60 48 L60 82' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M44 44 L44 30 M56 44 L56 30' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/><path d='M32 82 L68 82' stroke='currentColor' stroke-width='3' stroke-linecap='round'/></svg>"
+    },
+    "temple": {
+      "label": "Temple",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M20 82 L80 82 L80 48 L50 22 L20 48 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M42 82 L42 58 L58 58 L58 82' fill='none' stroke='currentColor' stroke-width='2.5'/><path d='M50 30 L50 42' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/></svg>"
+    },
+    "repentance": {
+      "label": "Repentance",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M74 35 A30 30 0 1 0 82 62' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><path d='M74 20 L74 38 L56 38' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+    },
+    "commandments": {
+      "label": "Commandments",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M28 82 L28 38 C28 28 34 22 42 22 L42 82 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M58 82 L58 22 C66 22 72 28 72 38 L72 82 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M34 40 L38 40 M34 50 L38 50 M34 60 L38 60 M62 40 L66 40 M62 50 L66 50 M62 60 L66 60' stroke='currentColor' stroke-width='2' stroke-linecap='round'/></svg>"
+    },
+    "scripture": {
+      "label": "Scripture",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M20 26 L50 32 L80 26 L80 78 L50 84 L20 78 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M50 32 L50 84' stroke='currentColor' stroke-width='2.5'/></svg>"
+    },
+    "priesthood": {
+      "label": "Priesthood",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M30 28 L70 28 L70 48 C70 62 62 74 50 80 C38 74 30 62 30 48 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M40 44 L60 44 M50 34 L50 58' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/></svg>"
+    },
+    "creation": {
+      "label": "Creation",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' fill='none' stroke='currentColor' stroke-width='3'/><path d='M20 50 Q35 35 50 50 T80 50' fill='none' stroke='currentColor' stroke-width='2.5'/><circle cx='34' cy='40' r='2.5' fill='currentColor'/><circle cx='62' cy='42' r='2.5' fill='currentColor'/></svg>"
+    },
+    "family": {
+      "label": "Family",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='38' r='8' fill='none' stroke='currentColor' stroke-width='2.5'/><circle cx='70' cy='38' r='8' fill='none' stroke='currentColor' stroke-width='2.5'/><circle cx='50' cy='58' r='6' fill='none' stroke='currentColor' stroke-width='2.5'/><path d='M18 78 C18 68 24 62 30 62 C36 62 42 68 42 78' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/><path d='M58 78 C58 68 64 62 70 62 C76 62 82 68 82 78' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/><path d='M40 82 C40 74 44 70 50 70 C56 70 60 74 60 82' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/></svg>"
+    },
+    "sacrifice": {
+      "label": "Sacrifice",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M22 78 L78 78 L74 58 L26 58 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M30 58 L30 50 L70 50 L70 58' fill='none' stroke='currentColor' stroke-width='3'/><path d='M50 50 L50 26 M42 34 Q50 22 58 34' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+    },
+    "shepherd": {
+      "label": "Shepherd",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M38 80 L38 30 C38 22 44 16 52 16 C60 16 66 22 66 30' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/><path d='M66 30 Q66 40 58 40 Q52 40 52 32' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+    },
+    "light": {
+      "label": "Light",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='14' fill='none' stroke='currentColor' stroke-width='3'/><path d='M50 20 L50 28 M50 72 L50 80 M20 50 L28 50 M72 50 L80 50 M28 28 L34 34 M66 66 L72 72 M72 28 L66 34 M28 72 L34 66' stroke='currentColor' stroke-width='3' stroke-linecap='round'/></svg>"
+    },
+    "prophet": {
+      "label": "Prophet",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='32' r='10' fill='none' stroke='currentColor' stroke-width='2.5'/><path d='M30 82 C30 62 38 48 50 48 C62 48 70 62 70 82' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/><path d='M72 30 L82 18 M72 34 L84 28 M72 38 L84 40' stroke='currentColor' stroke-width='2' stroke-linecap='round'/></svg>"
+    },
+    "exodus": {
+      "label": "Deliverance",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M16 50 L74 50' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><path d='M62 36 L78 50 L62 64' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/><path d='M84 24 L84 76' stroke='currentColor' stroke-width='3' stroke-linecap='round'/></svg>"
+    },
+    "law": {
+      "label": "Law of Moses",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M28 24 L48 24 L48 82 L28 82 Z M28 24 C28 20 32 18 38 18 C44 18 48 20 48 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/><path d='M52 24 L72 24 L72 82 L52 82 Z M52 24 C52 20 56 18 62 18 C68 18 72 20 72 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/><path d='M34 38 L42 38 M34 50 L42 50 M58 38 L66 38 M58 50 L66 50 M58 62 L66 62' stroke='currentColor' stroke-width='2' stroke-linecap='round'/></svg>"
+    },
+    "israel": {
+      "label": "House of Israel",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M50 20 L64 32 L78 44 L64 56 L78 68 L64 80 L50 68 L36 80 L22 68 L36 56 L22 44 L36 32 Z' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/></svg>"
+    },
+    "messiah": {
+      "label": "Messiah Prophesied",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M50 14 L56 36 L80 36 L60 50 L68 74 L50 60 L32 74 L40 50 L20 36 L44 36 Z' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/></svg>"
+    },
+    "atonement": {
+      "label": "Atonement",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M50 20 L50 80 M30 40 L70 40' stroke='currentColor' stroke-width='3.5' stroke-linecap='round'/><path d='M50 62 C40 62 34 68 34 76 C34 80 38 82 42 80 C46 78 50 72 50 62 C50 72 54 78 58 80 C62 82 66 80 66 76 C66 68 60 62 50 62 Z' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/></svg>"
+    },
+    "resurrection": {
+      "label": "Resurrection",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M22 72 Q22 50 38 50 L62 50 Q78 50 78 72 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M30 50 Q30 32 50 32 Q70 32 70 50' fill='none' stroke='currentColor' stroke-width='3'/><path d='M50 16 L50 28 M42 22 L58 22' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/></svg>"
+    },
+    "wisdom": {
+      "label": "Wisdom",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M28 78 L28 34 L50 22 L72 34 L72 78 Z' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/><path d='M38 50 L62 50 M38 60 L62 60 M38 70 L62 70' stroke='currentColor' stroke-width='2' stroke-linecap='round'/><circle cx='50' cy='36' r='3' fill='currentColor'/></svg>"
+    }
+  }
+}
